@@ -1,16 +1,20 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>EMOPIA</title>
-    <link rel="stylesheet" type="text/css" href="../../stylesheet.css"/>
+    <title align="center">EMOPIA</title>
+    <link rel="style" type="text/css" href="style.css"/>
     <!-- <link rel="shortcut icon" href="../../imgs/talk.png"> -->
   </head>
   <body>
     <article>
       <header>
-        <h1>Write some header</h1>
+        
+        <h1 align="center">EMOPIA</h1>
       </header>
     </article>
+
+
+
 
     <!-- <div><b>Paper:</b> Improving Automatic Jazz Melody Generation by Transfer Learning Techniques </div>
     <div><b>Authors:</b> Hsiao-Tzu Hung, Chung-Yang Wang, Yi-Hsuan Yang and Hsin-Min Wang</div>
@@ -21,19 +25,20 @@
     <!-- <div style="width: 80%">
       <b>Abstract:</b> In  this  paper,  we  tackle  the  problem  of  transferlearning  for   Jazz  automatic   generation.  Jazz   is  one   of  rep-resentative  types  of  music,  but  the  lack  of  Jazz  data  in  theMIDI  format  hinders  the  construction  of  a  generative  modelfor  Jazz.  Transfer  learning  is  an  approach  aiming  to  solve  theproblem  of  data  insufficiency,  so  as  to  transfer  the  commonfeature  from  one  domain  to  another.  In  view  of  its  success  inother  machine  learning  problems,  we  investigate  whether,  andhow  much,  it  can  help  improve  automatic  music  generation  forunder-resourced musical genres. Specifically, we use a recurrentvariational   autoencoder   as   the   generative   model,   and   use   agenre-unspecified  dataset  as  the  source  dataset  and  a  Jazz-onlydataset as the target dataset. Two transfer learning methods areevaluated using six levels of source-to-target data ratios. The firstmethod  is  to  train  the  model  on  the  source  dataset,  and  thenfine-tune  the  resulting  model  parameters  on  the  target  dataset.The  second  method  is  to  train  the  model  on  both  the  sourceand  target  datasets  at  the  same  time,  but  add  genre  labels  tothe  latent  vectors  and  use  a  genre  classifier  to  improve  Jazzgeneration.  Our  subjective  evaluation  shows  that  both  methodsoutperform  the  baseline  method  that  uses  Jazz  data  only  fortraining  by  a  large  margin.  Among  the  two  methods,  the  firstmethod  seems  to  perform  better.  Our  evaluation  also  shows  thelimits of existing objective metrics in evaluating the performanceof  music  generation  models.
     </div> -->
-<!-- 
-    <div>
-      <h2>Proposed methods</h2>
-      <img src="imgs/method.png" style="width: 100%;"/>
-    </div> -->
 
-    <div style="width: 80%">
-        <h2>Melody Samples</h2> 
-        Evaluation<br>
-        <h2>training data</h2> 
+    <div class=mm>
+      <h2 align="center">Proposed methods</h2>
+      <p  align="center">This is the proposed method</p>
+      <!-- <img src="imgs/method.png" style="width: 100%;"/> -->
+    </div>
+
+    <div align="center">
+        <h2 align="center">Melody Samples</h2> 
+        
+        <h2 align="center">training data</h2> 
         <table>
             <tr>
-              <td>melody 1</td><td><audio controls><source src="samples/1.wav"></audio></td>
+              <td align="center">melody 1</td><td align="center"><audio controls><source src="samples/1.wav"></audio></td>
             </tr>
             <tr>
               <td>melody 2</td><td><audio controls><source src="samples/0_real_test/2.wav"></audio></td>
